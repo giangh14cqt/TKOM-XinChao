@@ -21,7 +21,7 @@ for int i=1; i < 5; i+=1 {
 ## Characteristics of the language
 
 #### Support data types:
-`int, float, bool, string, vector`
+`int, float, bool, string`
 
 #### Operation:
 `+, -, *, /, <, >, <=, >=, ==, !=, +=, -=`\
