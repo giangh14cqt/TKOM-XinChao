@@ -26,33 +26,7 @@ for int i=1; i < 5; i+=1 {
 `+, -, *, /, <, >, <=, >=, ==, !=, +=, -=`\
 `&&, ||, !`
 
-#### Keywords and other symbols:
-##### Loop:
-```
-for <initialization statement>; <condition expression>; <post statement> {
-    <action>
-}
-```
-##### Condition:
-```
-if <condition expression> {
-
-}
-```
-##### Condition with else:
-```
-if <condition expression> {
-
-} else {
-
-}
-```
-##### Object
-`class` - keyword to define a class \
-`new` - keyword to create new object \
-`this` - keyword to denote class attributes
-
-##### Statement
+#### Statement
 ```
 {
     <block statement>
@@ -68,3 +42,28 @@ int n = 5
 <Function parameters in parentheses>
 (n < 5)
 ```
+
+#### Loop:
+```
+for <initialization statement>; <condition expression>; <post statement> {
+    <action>
+}
+```
+#### Condition:
+```
+if <condition expression> {
+
+}
+```
+#### Condition with else:
+```
+if <condition expression> {
+
+} else {
+
+}
+```
+#### Object
+`class` - keyword to define a class \
+`new` - keyword to create new object \
+`this` - keyword to denote class attributes
