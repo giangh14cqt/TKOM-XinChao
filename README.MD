@@ -20,14 +20,14 @@ for n < 5 {
 
 ## Characteristics of the language
 
-Support data types:
+Support data types:\
 `int, float, bool`
 
-Operation:
-`+, -, *, /, <, >, <=, >=, ==, !=, +=, -=`
-
+Operation:\
+`+, -, *, /, <, >, <=, >=, ==, !=, +=, -=`\
 `&&, ||, !`
-Keywords and other symbols:
+
+Keywords and other symbols:\
 Block:
 ```
 {
@@ -51,6 +51,6 @@ Condition with else:
 if () {
 
 } else {
-    
+
 }
 ```
