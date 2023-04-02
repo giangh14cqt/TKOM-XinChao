@@ -1,7 +1,7 @@
 # TKOM Project - Warsaw University of Technology
 
-Project name: `XinChao`
-Author: Truong Giang Do
+Project name: `XinChao` \
+Author: Truong Giang Do \
 Mentor: Wysota Witold
 
 The goal of the project is to write a language interpreter with a syntax similar to Python but with static data type.
