@@ -20,12 +20,28 @@ for int i=1; i < 5; i+=1 {
 ## Characteristics of the language
 
 #### Support data types:
-`int, float, bool`
+`int, float, bool, string`
 
 #### Operation:
 `+, -, *, /, <, >, <=, >=, ==, !=, +=, -=`\
 `&&, ||, !`
 
+#### Variable
+Declare variable:
+```
+<data type> <variable's name>
+int n
+```
+Declare variable with value:
+```
+<data type> <variable's name> = <value>
+int n = 5
+```
+Declare constain variable:
+```
+const <data type> <variable's name> = <value>
+const int n = 10
+```
 #### Statement
 ```
 {
@@ -67,3 +83,22 @@ if <condition expression> {
 `class` - keyword to define a class \
 `new` - keyword to create new object \
 `this` - keyword to denote class attributes
+
+#### Function
+Declare a function: 
+```
+func <function's name> (<data type> <parametr 1>, <data type> <parametr 2>, ...) {
+    
+}
+
+func calculate(int a, int b) {
+
+}
+```
+
+#### Built-in function
+`print()` - print text, variables\
+`range(<start>, <stop>, <step>)` -  return a list of integers from <start> to <stop> with the given <step>
+
+#### Comment
+`//` - text after this symbol is consider as comment
